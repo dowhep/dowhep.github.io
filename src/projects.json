@@ -3,12 +3,13 @@
     "name" : "Event Hosting Website for College Students",
     "tech" : "MongoDB, Node.js, Express.js, React.js",
     "desc" : "Collaborated in a team of 4 members and 2 mentors to design a cross-platform website for UCSD students to host and view available events in UCSD. Built 7 API routes to handle different event viewing and hosting requests, including error handling for each of the routes. Managed the MongoDB database with Mongoose node library to access and store user and event information. Encrypted the user password with the bcript node library to safeguard users’ data.",
-    "url" : "https://github.com/acmucsd-projects/team-piplup-wi22"
+    "github" : "https://github.com/acmucsd-projects/team-piplup-wi22"
   },
   {
     "name" : "Native Application for Periodic Rest Reminder",
     "tech" : "Win32, C++, hlsl, DirectX11",
     "desc" : "Created a native windows application, named R35T, with dual-timer functionality to help maintain a healthy work-rest dynamic to the users. Constructed a custom keyboard system for inputing parameters to ensure a smooth interface usage. Built a custom UI render pipeline from ground up to optimize application performance (less than 5% GPU and less than 2% CPU usage with active window and near 0% GPU and CPU usage otherwise). Implemented Cellular Noise for the background to achieve desirable interface.",
-    "url" : "https://dowhep.itch.io/r35t"
+    "github" : "https://github.com/dowhep/Win32R35T",
+    "itchio" : "https://dowhep.itch.io/r35t"
   }
 ]

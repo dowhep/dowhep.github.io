@@ -87,8 +87,8 @@
 .icon {
   &black {
     width: calc(0.5vw + 3vh);
-    padding-left: calc(0.3% + 0.5vh);
-    padding-right: calc(0.3% + 0.5vh);
+    margin-left: calc(0.3% + 0.5vh);
+    margin-right: calc(0.3% + 0.5vh);
   }
   &sblack {
     top: 34%;
@@ -100,8 +100,8 @@
   }
   &white {
     width: 4vh;
-    padding-left: calc(1vh + 2vw);
-    padding-right: calc(1vh + 2vw);
+    margin-left: calc(1vh + 2vw);
+    margin-right: calc(1vh + 2vw);
   }
   &swhite {
     width: 100%;
@@ -121,6 +121,7 @@
 
 .proj {
   &_container {
+    position: relative;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
     margin-top: 1vh;
@@ -149,6 +150,17 @@
     padding-top: 1vh;
     font-size: 2.1vh;
     color: #ececec;
+    margin-bottom: 6vh;
+  }
+  &_icon {
+    width: 3vh;
+    padding-left: calc(1vh + 0.5vw);
+    padding-right: calc(1vh + 0.5vw);
+    &s {
+      position: absolute;
+      bottom: 3vh;
+      right: 1vw;
+    }
   }
 }
 
