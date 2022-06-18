@@ -1,13 +1,13 @@
 // load data
 const data = require('./experience.json');
-const len = Object.keys(data).length;
+// const len = Object.keys(data).length;
 
 // the export var
-const content = [];
+const experience = [];
 let k = 1;
 
 data.forEach((exp) => {
-  content.push(
+  experience.push(
     <div className="exp_container" key={k++}>
       <a href={exp.url}>
         <img src={exp.image} className="exp_image" />
@@ -22,4 +22,4 @@ data.forEach((exp) => {
   );
 });
 
-export { content };
+export { experience };

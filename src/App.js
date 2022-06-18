@@ -7,7 +7,8 @@ import itchioblack from './Icons/itchioblack.svg';
 import itchiowhite from './Icons/itchiowhite.svg';
 import githubblack from './Icons/githubblack.png';
 import githubwhite from './Icons/githubwhite.png';
-import { content } from './ExperienceHandler.js';
+import { experience } from './ExperienceHandler.js';
+import { projects } from './ProjectsHandler.js';
 
 const linkedinlink = 'https://www.linkedin.com/in/caogang-shen-50772b1b7/';
 const itchiolink = 'https://dowhep.itch.io/';
@@ -42,8 +43,13 @@ function App() {
             </div>
           </div>
 
+          <div className="sectionheader">Projects</div>
+          <hr className="projectsline" />
+          <div className="projects">{projects}</div>
+          <hr className="projectsline" />
+
           <div className="sectionheader">Experience</div>
-          <div className="content">{content}</div>
+          <div className="experience">{experience}</div>
 
           <div className="horizontalflex">
             <div>
