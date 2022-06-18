@@ -1,11 +1,64 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+
+import './App.scss';
+import linkedinblack from './Icons/linkedinblack.svg';
+import linkedinwhite from './Icons/linkedinwhite.svg';
+import itchioblack from './Icons/itchioblack.svg';
+import itchiowhite from './Icons/itchiowhite.svg';
+import githubblack from './Icons/githubblack.png';
+import githubwhite from './Icons/githubwhite.png';
+import { content } from './ExperienceHandler.js';
+
+const linkedinlink = 'https://www.linkedin.com/in/caogang-shen-50772b1b7/';
+const itchiolink = 'https://dowhep.itch.io/';
+const githublink = 'https://github.com/dowhep';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="Parallax">
+          {/* <div className="Parallax_Group">
+            <div className="Parallax_BG Parallax_BG1" />
+            <div className="Parallax_BG Parallax_BG2" />
+            <div className="Parallax_BG Parallax_BG3" />
+            <div className="Parallax_BG Parallax_BG4" />
+            <div className="Parallax_BG Parallax_TXT" />
+          </div> */}
+          <div className="bg">
+            <div className="myname">
+              <div className="iconsblack">
+                <a href={itchiolink}>
+                  <img src={itchioblack} className="iconblack" />
+                </a>
+                <a href={githublink}>
+                  <img src={githubblack} className="iconblack" />
+                </a>
+                <a href={linkedinlink}>
+                  <img src={linkedinblack} className="iconblack" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="sectionheader">Experience</div>
+          <div className="content">{content}</div>
+
+          <div className="sectionheader">Portfolio</div>
+          <div className="iconswhite">
+            <a href={itchiolink}>
+              <img src={itchiowhite} className="iconwhite" />
+            </a>
+            <a href={githublink}>
+              <img src={githubwhite} className="iconwhite" />
+            </a>
+            <a href={linkedinlink}>
+              <img src={linkedinwhite} className="iconwhite" />
+            </a>
+          </div>
+        </div>
+
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,7 +69,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );

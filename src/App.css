@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -11,10 +11,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,20 @@
   color: white;
 }
 
-.App-link {
+.Parallax {
+  background-position: bottom center;
+  background-size: auto 1038px;
+  height: 1000px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+
+.ParallaxBG1 {
+  background-image: url("./Images/Layer1.png");
+}
+
+/* .App-link {
   color: #61dafb;
 }
 
@@ -35,4 +48,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

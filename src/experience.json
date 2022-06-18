@@ -1,0 +1,18 @@
+[
+  {
+    "name": "ACM at UCSD",
+    "position": "Backend Enginneer",
+    "duration": "2022-present",
+    "description": "As a team of 13, we maintained the official website for ACM at UCSD, which is consistently interacted by over thousands of users.",
+    "url": "https://acmucsd.com/",
+    "image": "https://acmucsd.com/_next/static/media/ACMWhiteLogo.ccb2d1cb.png"
+  },
+  {
+    "name": "Newport Robotics Group",
+    "position": "IT Captain",
+    "duration": "2019-2021",
+    "description": "I led a team of three people to create a mobile application using Xamarin.Forms framework. This app, used by our robotics team of around 100 people, was able to track the perfomances of more than 3000 different robots at FIRST Robotics Competition and allowed our team to come up with winning strategies. It was published on Google Play to increase the accessibility of the application.",
+    "url": "https://www.nrg948.com/",
+    "image": "https://scontent-sea1-1.xx.fbcdn.net/v/t31.18172-8/12698186_907348436050496_2916221266660975126_o.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=RiU3GWjFXV4AX8osyZQ&_nc_ht=scontent-sea1-1.xx&oh=00_AT_v3bfm7aNwz18d_hhVBPgoM1IeLxha_LiLq4rqrC-Ikg&oe=62D3D3A5"
+  }
+]
