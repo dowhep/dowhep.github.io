@@ -12,6 +12,7 @@ import { content } from './ExperienceHandler.js';
 const linkedinlink = 'https://www.linkedin.com/in/caogang-shen-50772b1b7/';
 const itchiolink = 'https://dowhep.itch.io/';
 const githublink = 'https://github.com/dowhep';
+const myemail = 'marcelo.cshen@gmail.com';
 
 function App() {
   return (
@@ -44,18 +45,27 @@ function App() {
           <div className="sectionheader">Experience</div>
           <div className="content">{content}</div>
 
-          <div className="sectionheader">Portfolio</div>
-          <div className="iconswhite">
-            <a href={itchiolink}>
-              <img src={itchiowhite} className="iconwhite" />
-            </a>
-            <a href={githublink}>
-              <img src={githubwhite} className="iconwhite" />
-            </a>
-            <a href={linkedinlink}>
-              <img src={linkedinwhite} className="iconwhite" />
-            </a>
+          <div className="horizontalflex">
+            <div>
+              <div className="sectionheader">Portfolio</div>
+              <div className="iconswhite">
+                <a href={itchiolink}>
+                  <img src={itchiowhite} className="iconwhite" />
+                </a>
+                <a href={githublink}>
+                  <img src={githubwhite} className="iconwhite" />
+                </a>
+                <a href={linkedinlink}>
+                  <img src={linkedinwhite} className="iconwhite" />
+                </a>
+              </div>
+            </div>
+            <div>
+              <div className="sectionheader">Contact Me</div>
+              <div className="contact_email">{myemail}</div>
+            </div>
           </div>
+          <div className="whitespace" />
         </div>
 
         {/* <img src={logo} className="App-logo" alt="logo" />
