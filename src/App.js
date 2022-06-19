@@ -31,13 +31,17 @@ function App() {
             <div className="myname">
               <div className="iconsblack">
                 <a href={itchiolink}>
-                  <img src={itchioblack} className="iconblack" />
+                  <img src={itchioblack} className="iconblack" alt="itch.io" />
                 </a>
                 <a href={githublink}>
-                  <img src={githubblack} className="iconblack" />
+                  <img src={githubblack} className="iconblack" alt="github" />
                 </a>
                 <a href={linkedinlink}>
-                  <img src={linkedinblack} className="iconblack" />
+                  <img
+                    src={linkedinblack}
+                    className="iconblack"
+                    alt="linkedin"
+                  />
                 </a>
               </div>
             </div>
@@ -56,13 +60,17 @@ function App() {
               <div className="sectionheader">Portfolio</div>
               <div className="iconswhite">
                 <a href={itchiolink}>
-                  <img src={itchiowhite} className="iconwhite" />
+                  <img src={itchiowhite} className="iconwhite" alt="itch.io" />
                 </a>
                 <a href={githublink}>
-                  <img src={githubwhite} className="iconwhite" />
+                  <img src={githubwhite} className="iconwhite" alt="github" />
                 </a>
                 <a href={linkedinlink}>
-                  <img src={linkedinwhite} className="iconwhite" />
+                  <img
+                    src={linkedinwhite}
+                    className="iconwhite"
+                    alt="linkedin"
+                  />
                 </a>
               </div>
             </div>

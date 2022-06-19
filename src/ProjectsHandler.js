@@ -15,12 +15,12 @@ const generateLinkIcons = (github, itchio) => {
     <div className="proj_icons">
       {itchio ? (
         <a href={itchio}>
-          <img src={itchimg} className="proj_icon" />
+          <img src={itchimg} className="proj_icon" alt="itch.io" />
         </a>
       ) : null}
       {github ? (
         <a href={github}>
-          <img src={ghimg} className="proj_icon" />
+          <img src={ghimg} className="proj_icon" alt="github" />
         </a>
       ) : null}
     </div>
