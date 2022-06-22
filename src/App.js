@@ -57,7 +57,7 @@ function App() {
 
           <div className="horizontalflex">
             <div>
-              <div className="sectionheader">Portfolio</div>
+              <div className="sectionheader">My Links</div>
               <div className="iconswhite">
                 <a href={itchiolink}>
                   <img src={itchiowhite} className="iconwhite" alt="itch.io" />
