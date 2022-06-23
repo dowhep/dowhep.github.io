@@ -10,7 +10,7 @@ import githubwhite from './Icons/githubwhite.png';
 import { experience } from './ExperienceHandler.js';
 import { projects } from './ProjectsHandler.js';
 
-const linkedinlink = 'https://www.linkedin.com/in/caogang-shen-50772b1b7/';
+const linkedinlink = 'https://www.linkedin.com/in/caogang-shen/';
 const itchiolink = 'https://dowhep.itch.io/';
 const githublink = 'https://github.com/dowhep';
 const myemail = 'marcelo.cshen@gmail.com\ncaogangshen@gmail.com';
