@@ -9,7 +9,7 @@ let k = 1;
 data.forEach((exp) => {
   experience.push(
     <div className="exp_container" key={k++}>
-      <a href={exp.url}>
+      <a href={exp.url} target="_blank">
         <img src={exp.image} className="exp_image" />
       </a>
       <div className="exp_text">
