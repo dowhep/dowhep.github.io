@@ -1,11 +1,21 @@
 [
   {
     "name": "ACM at UCSD",
-    "position": "Backend Enginneer",
+    "position": "Backend Enginneer Project Manager",
     "duration": "2022-present",
-    "description": "As a team of 13, we maintained the official website for ACM at UCSD, which has a consistent user base of over 5000 users.",
+    "description": "I manage a team of 4 backend engineers using agile project management system to maintain the organization website used by 3000+ users. I created 2 realtime graphs using metabase and SQL query calls to track the average attendance of events for each weeks in a quarter, and I implemented 10 feature functions, 3 APIs, and 2 testing functions under Typescript to allow the users to submit their resumes to the organization website and the recruiters to fetch their resumes.",
     "url": "https://acmucsd.com/",
+    "alt": "https://acmucsd.com/",
     "image": "https://acmucsd.com/_next/static/media/ACMWhiteLogo.ccb2d1cb.png"
+  },
+  {
+    "name": "UCSD CSE Department",
+    "position": "Computer Science and Engineering Tutor",
+    "duration": "2022-present",
+    "description": "I host lab sessions 5 hrs/wk to assist students from the system programming course in learning course materials; provide constructive feedbacks to students’ programming assignments based on c and assembly language; and answer students’ questions and confusions about the course material on Piazza, an online forum for academic discussions.",
+    "url": "https://cse.ucsd.edu/undergraduate/undergraduate-tutors",
+    "alt": "https://acmucsd.com/",
+    "image": "https://ucsdguardian.org/wp-content/uploads/2017/09/UCSD-Logo-Black-Background.jpg"
   },
   {
     "name": "Newport Robotics Group",
@@ -13,6 +23,7 @@
     "duration": "2019-2021",
     "description": "I led a team of three people to create a mobile application using Xamarin.Forms framework. This app, used by our robotics team of around 100 people, was able to track the perfomances of more than 3000 different robots at FIRST Robotics Competition and allowed our team to come up with winning strategies. It was published on Google Play to increase the accessibility of the application.",
     "url": "https://www.nrg948.com/",
+    "alt": "https://acmucsd.com/",
     "image": "https://pbs.twimg.com/profile_images/696510697052614656/eOiY9ZpF_400x400.png"
   }
 ]

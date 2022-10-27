@@ -30,13 +30,13 @@ function App() {
           <div className="bg">
             <div className="myname">
               <div className="iconsblack">
-                <a href={itchiolink} target="_blank">
+                <a href={itchiolink} target="_blank" rel="noreferrer">
                   <img src={itchioblack} className="iconblack" alt="itch.io" />
                 </a>
-                <a href={githublink} target="_blank">
+                <a href={githublink} target="_blank" rel="noreferrer">
                   <img src={githubblack} className="iconblack" alt="github" />
                 </a>
-                <a href={linkedinlink} target="_blank">
+                <a href={linkedinlink} target="_blank" rel="noreferrer">
                   <img
                     src={linkedinblack}
                     className="iconblack"
@@ -59,13 +59,13 @@ function App() {
             <div>
               <div className="sectionheader">My Links</div>
               <div className="iconswhite">
-                <a href={itchiolink} target="_blank">
+                <a href={itchiolink} target="_blank" rel="noreferrer">
                   <img src={itchiowhite} className="iconwhite" alt="itch.io" />
                 </a>
-                <a href={githublink} target="_blank">
+                <a href={githublink} target="_blank" rel="noreferrer">
                   <img src={githubwhite} className="iconwhite" alt="github" />
                 </a>
-                <a href={linkedinlink} target="_blank">
+                <a href={linkedinlink} target="_blank" rel="noreferrer">
                   <img
                     src={linkedinwhite}
                     className="iconwhite"

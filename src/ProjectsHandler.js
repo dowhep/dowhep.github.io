@@ -14,12 +14,12 @@ const generateLinkIcons = (github, itchio) => {
   return (
     <div className="proj_icons">
       {itchio ? (
-        <a href={itchio} target="_blank">
+        <a href={itchio} target="_blank" rel="noreferrer">
           <img src={itchimg} className="proj_icon" alt="itch.io" />
         </a>
       ) : null}
       {github ? (
-        <a href={github} target="_blank">
+        <a href={github} target="_blank" rel="noreferrer">
           <img src={ghimg} className="proj_icon" alt="github" />
         </a>
       ) : null}
