@@ -3,7 +3,7 @@
     "name": "ACM at UCSD",
     "position": "Backend Enginneer Project Manager",
     "duration": "2022-present",
-    "description": "I manage a team of 4 backend engineers using agile project management system to maintain the organization website used by 3000+ users. I created 2 realtime graphs using metabase and SQL query calls to track the average attendance of events for each weeks in a quarter, and I implemented 10 feature functions, 3 APIs, and 2 testing functions under Typescript to allow the users to submit their resumes to the organization website and the recruiters to fetch their resumes.",
+    "description": "I manage a team of 4 backend engineers using agile project management system to maintain the organization website used by 3000+ users. I created 2 realtime graphs using Metabase and SQL query calls to track the changes over the average attendance of events per week, and I implemented 10 feature functions, 3 APIs, and 2 testing functions under Typescript to allow the users to submit their resumes to the organization website and the recruiters to fetch their resumes.",
     "url": "https://acmucsd.com/",
     "alt": "https://acmucsd.com/",
     "image": "https://acmucsd.com/_next/static/media/ACMWhiteLogo.ccb2d1cb.png"
