@@ -28,7 +28,6 @@ self.addEventListener('activate', function (event) {
 
 // Intercept fetch requests and cache them
 self.addEventListener('fetch', function (event) {
-  if (!event.request.url.startsWith('http')) return;
   // We added some known URLs to the cache above, but tracking down every
   // subsequent network request URL and adding it manually would be very taxing.
   // We will be adding all of the resources not specified in the intiial cache
@@ -42,7 +41,7 @@ self.addEventListener('fetch', function (event) {
   /*******************************/
   // B7. TODO - Respond to the event by opening the cache using the name we gave
   //            above (CACHE_NAME)
-  event.waitUntil(
+  event.respondWith(
     caches.open(CACHE_NAME).then(function (cache) {
       // B8. TODO - If the request is in the cache, return with the cached version.
       //            Otherwise fetch the resource, add it to the cache, and return
