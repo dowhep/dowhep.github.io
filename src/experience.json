@@ -3,7 +3,7 @@
     "name": "ACM at UCSD",
     "position": "Backend Enginneer Project Manager",
     "duration": "2022-present",
-    "description": "I manage a team of 4 backend engineers using agile project management system to maintain the organization website used by 3000+ users. I created 2 realtime graphs using Metabase and SQL query calls to track the changes over the average attendance of events per week, and I implemented 10 feature functions, 3 APIs, and 2 testing functions under Typescript to allow the users to submit their resumes to the organization website and the recruiters to fetch their resumes.",
+    "description": "· Lead an Agile team of 4 to maintain the website backend for ACM at UCSD, interacted by around 3.7k users.\n· Created 2 SQL database migrations and wrote 5 API routes with 3 layers of abstractions - Controller, Service, and Repository - to attach images on merch items and allow recruiters to fetch over 200 member resumes.\n· Restructured merchandise database to enable up to 5 product images to be displayed for each merch item.\n· Tested each feature with jest.js unit tests and Postman API integration tests with WSL2 docker for consistency.",
     "url": "https://acmucsd.com/",
     "alt": "https://acmucsd.com/",
     "image": "https://acmucsd.com/_next/static/media/ACMWhiteLogo.ccb2d1cb.png"
@@ -12,7 +12,7 @@
     "name": "UCSD CSE Department",
     "position": "Computer Science and Engineering Instructional Assistant",
     "duration": "2022-present",
-    "description": "I host lab sessions 5 hrs/wk to assist students from the system programming course in learning course materials; provide constructive feedbacks to students’ programming assignments based on c and assembly language; and answer students’ questions and confusions about the course material on Piazza, an online forum for academic discussions.",
+    "description": "· Host lab sessions 6 hrs/wk to assist students from system programming to advanced data structure.\n· Test midterm and final exams to ensure the topic coverage as well as readability and accessibility.\n· Provide constructive feedback to students’ programming assignments based on C, C++, and ARM Assembly.",
     "url": "https://cse.ucsd.edu/undergraduate/undergraduate-tutors",
     "alt": "https://acmucsd.com/",
     "image": "https://ucsdguardian.org/wp-content/uploads/2017/09/UCSD-Logo-Black-Background.jpg"
@@ -21,7 +21,7 @@
     "name": "Newport Robotics Group",
     "position": "IT Captain",
     "duration": "2019-2021",
-    "description": "I led a team of three people to create a mobile application using Xamarin.Forms framework. This app, used by our robotics team of around 100 people, was able to track the perfomances of more than 3000 different robots at FIRST Robotics Competition and allowed our team to come up with winning strategies. It was published on Google Play to increase the accessibility of the application.",
+    "description": "· Organized a team of 3 students to develop a cross-platform mobile application that helps evaluate robots.\n· Responsible for multi-platform data collection and analysis, which placed our team second in the world championships out of thousands of competing teams. Automated handling of 10,000+ data points.zed\n· Created over 7 different app pages to select FRC Team, record performance, import and export data, etc...\n· Published the application in App Store and Google Play with more than 50 total downloads.",
     "url": "https://www.nrg948.com/",
     "alt": "https://acmucsd.com/",
     "image": "https://pbs.twimg.com/profile_images/696510697052614656/eOiY9ZpF_400x400.png"
